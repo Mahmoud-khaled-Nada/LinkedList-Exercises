@@ -35,6 +35,12 @@ int main() {
     cout << "Show list:" << endl;
     l.Dispaly();
 
+    cout << "Update user id 3" << end;
+    l.updateData(3, "Ahmed");
+
+    cout << "get user id 2"<< end;
+    l.retrieveData(2); 
+
 
     l.selectionSort();
     cout << "\nAfter selectionSort:" << endl;

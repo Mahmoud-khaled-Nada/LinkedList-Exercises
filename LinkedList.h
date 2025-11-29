@@ -54,7 +54,6 @@ public:
 
     int listSize() const;                // done
     void updateData(const int &, int &); // done
-    bool retrieveData(int id, Data &outData) const;
     void retrieveData(int &, Data &) const; // done
     void insertFirst(const int &, const string &); // done
     void insertAfter(const int &, const string &); // done
