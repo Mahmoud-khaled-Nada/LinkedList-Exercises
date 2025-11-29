@@ -10,7 +10,8 @@ int main() {
     // Insert data
     l.insertFirst(1, "Mahmoud");
     l.insertEnd(2, "Khaled");
-    l.insertAfter(3, "Nada");
+    l.insertAfter(4, "Nada");
+    l.insertBefore(3, "Ali");
 
     // Display data
     cout << "Initial list:" << endl;
@@ -23,6 +24,16 @@ int main() {
 
     // is sorted
     cout << "\nIs list sorted? " << (l.Sorted() ? "Yes" : "No") << endl;
+
+    l.insertEnd(10, "X")
+    // Display data
+    cout << "Show list:" << endl;
+    l.Dispaly();
+
+    l.deleteFirst()
+    // Display data
+    cout << "Show list:" << endl;
+    l.Dispaly();
 
 
     l.selectionSort();
